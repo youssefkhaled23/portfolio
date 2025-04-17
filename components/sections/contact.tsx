@@ -18,25 +18,24 @@ export default function Contact() {
   });
   const form = useRef<HTMLFormElement | null>(null);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    handleWhatsApp();
     
-    try {
-      const phoneNumber = "201102661687";
-      const message = encodeURIComponent(
-        `Hi, I'm ${formData.name}.\nEmail: ${formData.email}\nMessage: ${formData.message}`
-      );
-      window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
-      
-      toast.success("Opening WhatsApp");
-      
-      // Reset form
-      form.current?.reset();
-      setFormData({ name: "", email: "", message: "" });
-    } catch (error) {
-      console.error("Error opening WhatsApp:", error);
-      toast.error("Failed to open WhatsApp");
-    }
+    // Reset form
+    form.current?.reset();
+    setFormData({ name: "", email: "", message: "" });
+  };
+
+  const handleWhatsApp = () => {
+    const phoneNumber = "01061182942";
+    const message = encodeURIComponent(
+      `Hi, I'm ${formData.name || "Anonymous"}. ${
+        formData.message || "I would like to get in touch."
+      } (Email: ${formData.email || "Not provided"})`
+    );
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+    toast.success("Opening WhatsApp with your message");
   };
 
   return (
@@ -52,7 +51,7 @@ export default function Contact() {
               <div>
                 <h3 className="font-medium">Email</h3>
                 <p className="text-zinc-600 dark:text-zinc-300">
-                  abdallahabdeltawab2015@gmail.com
+                  nadaamer300pp@gmail.com
                 </p>
               </div>
             </div>
@@ -63,7 +62,7 @@ export default function Contact() {
               <div>
                 <h3 className="font-medium">Phone</h3>
                 <p className="text-zinc-600 dark:text-zinc-300">
-                  +201102661687
+                  +201061182942
                 </p>
               </div>
             </div>
@@ -73,7 +72,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-medium">Location</h3>
-                <p className="text-zinc-600 dark:text-zinc-300">Egypt,Giza</p>
+                <p className="text-zinc-600 dark:text-zinc-300">Egypt,Assuit</p>
               </div>
             </div>
           </div>
@@ -142,7 +141,7 @@ export default function Contact() {
                 className="w-full px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
                 aria-label="Send WhatsApp Message"
               >
-                <span>Send via WhatsApp</span>
+                <span>Send Message</span>
                 <MessageSquare className="h-4 w-4" />
               </button>
             </div>

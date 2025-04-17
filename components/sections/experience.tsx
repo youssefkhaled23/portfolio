@@ -7,25 +7,20 @@ const experiences = [
       "Built and optimized backend APIs using .NET Core with Clean Architecture. Integrated CI/CD pipelines to automate deployments, leading to a 40% improvement in system performance and deployment reliability.",
   },
   {
-    company: "ISchool",
-    position: "Coding Instructor",
+    company:
+      "Delivered structured lessons on coding and programming concepts to a diverse range of students.",
+    position: "Coding Instructor ISchool",
     period: "2025 – Present",
     description:
       "Taught programming fundamentals and project-based learning to students using modern web technologies including JavaScript, React, and Node.js. Mentored learners in building full-stack applications with real-world relevance.",
   },
   {
-    company: "Al Mentor",
-    position: "Frontend Developer & Consultant",
+    company:
+      "Mentored students in C++ programming and competitive problem-solving through interactive workshops and hands-on exercises.",
+    position: "C++ Mentor and Problem-Solving Trainer",
     period: "2024 ",
     description:
       "Built dynamic frontend applications using React and Next.js, including dashboards and educational platforms. Delivered fully responsive UI/UX designs and guided clients through planning, development, and deployment stages.",
-  },
-  {
-    company: "Udacity",
-    position: "Mentor / Code Reviewer",
-    period: "2024 ",
-    description:
-      "Provided mentorship and detailed code reviews for web development students. Assisted learners with project planning, debugging, and best practices in React, JavaScript, and front-end architecture.",
   },
 ];
 

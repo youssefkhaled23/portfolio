@@ -13,18 +13,18 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Social Development Bank – Saudi Arabia",
+    title: "E-commerce (API)",
     description:
       "Maintained and optimized integration with Lean for customer data aggregation. Enhanced financial data processing and improved system reliability through performance fixes.",
     highlights: [
       "Service discovery with Consul for dynamic service registration",
       "Decoupled communication via RabbitMQ messaging",
-      "Adopted Clean Architecture for maintainable codebase",
-      "CQRS pattern implemented using MediatR for clear separation",
-      "Containerization of services using Docker for deployment scalability",
+      "Adopted Clean Architecture for a maintainable codebase",
+      "CQRS pattern implemented using MediatR for separation of concerns",
+      "Containerization of services using Docker for scalable deployment",
     ],
     technologies: [
-      ".NET 6",
+      ".NET 6", // Backend Technology
       "SQL Server",
       "Redis",
       "RabbitMQ",
@@ -46,7 +46,7 @@ const projects: Project[] = [
       "Implemented centralized audit logging system",
     ],
     technologies: [
-      "ASP.NET Core",
+      "ASP.NET Core", // Backend Technology
       "IdentityServer",
       "Entity Framework Core",
       "SQL Server",
@@ -56,18 +56,18 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "E-Commerce Platform (Bustan Mall)",
+    title: "Your Services (Graduation Project – A+ Grade, 2024)",
     description:
-      "Full-featured e-commerce backend for a mall ecosystem enabling product listings, store discovery, and customer engagement through a cross-platform frontend (React/Flutter).",
+      "Full-featured e-commerce backend for a mall ecosystem enabling product listings, store discovery, and customer engagement via cross-platform frontend (React/Flutter).",
     highlights: [
-      "Real-time updates using SignalR for product and order status",
-      "Comprehensive unit and integration tests",
-      "Interactive API docs via Swagger/OpenAPI",
-      "Redis caching layer for performance optimization",
-      "Background processing with Hangfire for order notifications and reports",
+      "Real-time updates using SignalR",
+      "Comprehensive unit & integration tests using xUnit",
+      "Interactive API documentation via Swagger/OpenAPI",
+      "Redis caching layer for performance",
+      "Background tasks with Hangfire for notifications & reports",
     ],
     technologies: [
-      ".NET Core",
+      ".NET Core", // Backend Technology
       "SignalR",
       "xUnit",
       "Redis",
@@ -77,18 +77,18 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "Gym Management System",
+    title: "E-commerce (MVC)",
     description:
       "A modular web application for managing gym operations, member subscriptions, and class schedules with real-time updates and a responsive UI.",
     highlights: [
-      "Real-time class status and attendance with SignalR",
-      "Entity Framework Code First for schema generation",
-      "Interactive Swagger API documentation",
-      "Caching layers using Redis for quick data access",
-      "Job scheduling for automated notifications using Hangfire",
+      "Real-time class status and attendance via SignalR",
+      "Schema generation using Entity Framework Code First",
+      "Interactive API docs with Swagger",
+      "High-speed data access using Redis caching",
+      "Automated task scheduling with Hangfire",
     ],
     technologies: [
-      ".NET Core MVC",
+      ".NET Core MVC", // Backend Technology
       "Entity Framework",
       "SignalR",
       "Redis",
@@ -96,82 +96,8 @@ const projects: Project[] = [
       "Swagger",
     ],
   },
-  {
-    title: "Articles Management Platform",
-    description:
-      "Content management platform for publishing and organizing articles, built with clean architecture principles and a focus on scalability.",
-    highlights: [
-      "Integrated SignalR for live article updates",
-      "Domain-driven design using Clean Architecture",
-      "End-to-end testing using xUnit",
-      "Structured caching via Redis",
-      "Robust background tasks with Hangfire",
-    ],
-    technologies: [
-      ".NET Core MVC",
-      "SignalR",
-      "xUnit",
-      "Redis",
-      "Hangfire",
-      "Clean Architecture",
-    ],
-  },
-  {
-    title: "Sales System",
-    description:
-      "Revamped legacy VB.NET sales platform into a modern RESTful system with better scalability, fault tolerance, and user experience.",
-    highlights: [
-      "Real-time updates for stock and sales using SignalR",
-      "API documentation with Swagger",
-      "Layered caching strategy using Redis",
-      "Task automation with Hangfire (invoices, reports)",
-      "Migration from legacy VB.NET architecture",
-    ],
-    technologies: [
-      ".NET Core Web API",
-      "SignalR",
-      "Swagger",
-      "Redis",
-      "Hangfire",
-      "AutoMapper",
-    ],
-  },
-  {
-    title: "School Management System",
-    description:
-      "A comprehensive education platform with authentication, email confirmation, and secure access for students, teachers, and admins.",
-    highlights: [
-      "JWT authentication with secure refresh tokens",
-      "FluentValidation with custom error middleware",
-      "Identity-based user and role system",
-      "AutoMapper for DTO transformation",
-      "Dependency Injection for testability and modularity",
-    ],
-    technologies: [
-      ".NET Core Web API",
-      "FluentValidation",
-      "Identity",
-      "JWT",
-      "AutoMapper",
-      "SignalR",
-      "Redis",
-      "Hangfire",
-    ],
-  },
-  {
-    title: "JavaScript E-Commerce (Frontend)",
-    description:
-      "Built a simple CRUD-based e-commerce frontend using vanilla JavaScript with clean and responsive UI.",
-    highlights: [
-      "Dynamic DOM manipulation with plain JavaScript",
-      "Reusable components and modular design",
-      "Fully responsive design using pure CSS",
-      "Manual form validation and error handling",
-      "Product list filtering and cart management",
-    ],
-    technologies: ["JavaScript", "HTML5", "CSS3"],
-  },
 ];
+
 
 const PROJECTS_PER_PAGE = 3;
 

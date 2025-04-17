@@ -8,12 +8,12 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Abdallah Abdeltawab | .NET Backend Developer",
+  title: "Nada Amer | .NET Backend Developer",
   description:
     "Skilled .NET Backend Developer with experience building robust, scalable APIs and enterprise applications using ASP.NET Core, C#, and SQL Server. Explore my portfolio for real-world projects and backend expertise.",
   keywords:
     ".NET Backend Developer, ASP.NET Core, C# developer, backend web developer, RESTful API, SQL Server, software engineer",
-  authors: [{ name: "Abdallah Abdeltawab" }],
+  authors: [{ name: "Nada Amer" }],
   alternates: {
     canonical: "https://your-domain.com",
   },
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://your-domain.com",
-    siteName: "Abdallah Abdeltawab Portfolio",
-    title: "Abdallah Abdeltawab | .NET Backend Developer",
+    siteName: "Nada Amer Portfolio",
+    title: "Nada Amer | .NET Backend Developer",
     description:
       "Experienced .NET Backend Developer skilled in ASP.NET Core, C#, and scalable API architecture. Visit my portfolio to see my backend work in action.",
     images: [
@@ -30,20 +30,19 @@ export const metadata: Metadata = {
         url: "https://your-domain.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Abdallah Abdeltawab - .NET Backend Developer",
+        alt: "Nada Amer - .NET Backend Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abdallah Abdeltawab | .NET Backend Developer",
+    title: "Nada Amer | .NET Backend Developer",
     description:
       "Experienced .NET Backend Developer specializing in ASP.NET Core, C#, and modern backend architecture.",
     images: ["https://your-domain.com/og-image.jpg"],
   },
   themeColor: "#ffffff",
 };
-
 
 export default function RootLayout({
   children,

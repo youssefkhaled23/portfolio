@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="h-screen flex items-center justify-center relative">
       <div className="text-center space-y-4 px-4">
         <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-          Abdallah Abdeltawab
+        Nada Amer
         </h1>
         <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-300">
           .NET Backend Developer with 2+ Years of Experience

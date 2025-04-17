@@ -8,7 +8,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="aspect-square rounded-2xl overflow-hidden">
             <Image
-              src="/assets/photo_2025-04-17_19-40-34.jpg"
+              src="/assets/photo_2025-04-17_21-28-55.jpg"
               alt="Profile"
               width={500}
               height={500}

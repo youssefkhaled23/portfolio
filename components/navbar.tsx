@@ -29,17 +29,17 @@ const Navbar = () => {
   const socialMedia = [
     {
       name: "Github",
-      href: "https://github.com/abdallah7296",
+      href: "https://github.com/NadaAmer20",
       icon: Github,
     },
     {
       name: "Linkedin",
-      href: "https://www.linkedin.com/in/abdallah-abdeltawab-54b58b226/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      href: "https://www.linkedin.com/in/nada-amer-8bb68a225/",
       icon: Linkedin,
     },
     {
       name: "Email",
-      href: "mailto:abdallahabdeltawab2015@gmail.com",
+      href: "mailto:nadaamer300pp@gmail.com",
       icon: Inbox,
     },
   ];
@@ -91,7 +91,7 @@ const Navbar = () => {
             className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            <>Abdallah</>
+            <>Nada</>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">

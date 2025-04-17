@@ -6,6 +6,10 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const skillsByCategory = {
   backend: [
     { name: "C#", category: "Programming Language" },
+    { name: "C++", category: "Programming Language" },
+    { name: "C", category: "Programming Language" },
+    { name: "Python", category: "Programming Language" },
+    { name: "Java", category: "Programming Language" },
     { name: "Asp.Net Core (MVC,API)", category: "Web Framework" },
     { name: "Dependency Injection", category: "Design Pattern" },
     { name: "JWT Tokens", category: "Authentication" },
@@ -24,7 +28,6 @@ const skillsByCategory = {
     { name: "HTML5", category: "Markup Language" },
     { name: "CSS3", category: "Styling Language" },
     { name: "JavaScript", category: "Programming Language" },
-    { name: "TypeScript", category: "Programming Language" },
     { name: "JSON", category: "Data Format" },
     { name: "Bootstrap", category: "CSS Framework" },
   ],
