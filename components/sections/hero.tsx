@@ -12,8 +12,7 @@ export default function Hero() {
           .NET Backend Developer with 1 year of Experience
         </p>
         <p className="max-w-2xl mx-auto text-zinc-500 dark:text-zinc-400">
-          Crafting robust APIs, scalable backend systems, and enterprise-grade
-          solutions using ASP.NET Core, C#, and SQL Server.
+        specializing in APIs, scalable systems, and enterprise solutions using ASP.NET Core, C#, and SQL Server. Skilled in Clean Architecture for maintainable, modular code, focusing on efficiency, testability, and scalability while following best practices in design and development.
         </p>
       </div>
       <Link
