@@ -20,7 +20,9 @@ export default function About() {
               Hi! I'm a dedicated .NET Backend Developer with one year of experience building scalable, secure, and high-performance applications using ASP.NET Core, C#, and SQL Server.
             </p>
             <p className="text-zinc-600 dark:text-zinc-300">
-I’m passionate about clean architecture, RESTful APIs, and writing maintainable backend code that powers robust web applications. I enjoy turning business requirements into efficient, production-ready systems.          </div>
+I’m passionate about clean architecture, RESTful APIs, and writing maintainable backend code that powers robust web applications. I enjoy turning business requirements into efficient, production-ready systems.    
+</p> 
+     </div>
         </div>
       </div>
     </section>
