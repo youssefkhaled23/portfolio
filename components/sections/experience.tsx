@@ -4,7 +4,7 @@ const experiences = [
     position: "Back End Developer (.NET)",
     period: "2024 - Present",
     description:
-      "Built and optimized backend APIs using .NET Core with Clean Architecture. Integrated CI/CD pipelines to automate deployments, leading to a 40% improvement in system performance and deployment reliability.",
+      "Developed and optimized backend APIs using .NET Core, applying Clean Architecture principles for scalable and maintainable code",
   },
   {
     company:
@@ -12,7 +12,7 @@ const experiences = [
     position: "Coding Instructor ISchool",
     period: "2025 – Present",
     description:
-      "Taught programming fundamentals and project-based learning to students using modern web technologies including JavaScript, React, and Node.js. Mentored learners in building full-stack applications with real-world relevance.",
+      "Taught programming fundamentals and coding concepts to students, covering a variety of languages including Python.",
   },
   {
     company:
@@ -20,7 +20,7 @@ const experiences = [
     position: "C++ Mentor and Problem-Solving Trainer",
     period: "2024 ",
     description:
-      "Built dynamic frontend applications using React and Next.js, including dashboards and educational platforms. Delivered fully responsive UI/UX designs and guided clients through planning, development, and deployment stages.",
+      "Mentored students in C++ programming and competitive problem-solving, focusing on problem-solving techniques and algorithm optimization.",
   },
 ];
 
