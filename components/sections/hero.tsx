@@ -9,7 +9,7 @@ export default function Hero() {
         Nada Amer
         </h1>
         <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-300">
-          .NET Backend Developer with 2+ Years of Experience
+          .NET Backend Developer with 1 year of Experience
         </p>
         <p className="max-w-2xl mx-auto text-zinc-500 dark:text-zinc-400">
           Crafting robust APIs, scalable backend systems, and enterprise-grade
