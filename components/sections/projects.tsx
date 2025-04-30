@@ -11,92 +11,92 @@ interface Project {
   link?: string; // Optional link property
 }
 
-const projects: Project[] = [
+const projects: Project[] =[
   {
-    title: "E-commerce (API)",
-    description:
-      "Maintained and optimized integration with Lean for customer data aggregation. Enhanced financial data processing and improved system reliability through performance fixes.",
-    highlights: [
-      "Service discovery with Consul for dynamic service registration",
-      "Decoupled communication via RabbitMQ messaging",
-      "Adopted Clean Architecture for a maintainable codebase",
-      "CQRS pattern implemented using MediatR for separation of concerns",
-      "Containerization of services using Docker for scalable deployment",
+    "title": "E-commerce (API)",
+    "description": "Developed a robust e-commerce API solution using Clean Architecture, CQRS, and Mediator patterns for a modular and maintainable codebase.",
+    "highlights": [
+      "Implemented JWT authentication with role-based identity management",
+      "Added email confirmation and password reset functionalities",
+      "Used Fluent Validation for ensuring data integrity",
     ],
-    technologies: [
-      ".NET 6", // Backend Technology
-      "SQL Server",
-      "Redis",
-      "RabbitMQ",
-      "Docker",
-      "Azure",
-      "Consul",
-      "MediatR",
-    ],
+    "technologies": [
+    ".NET 6",
+    "Clean Architecture",
+    "SQL Server",
+    "MediatR (CQRS)",
+    "Fluent Validation",
+    "JWT Authentication"
+    ]
   },
   {
-    title: "Project Management System",
-    description:
-      "Developed a robust project tracking platform with secure authentication and advanced access control mechanisms to streamline team productivity.",
-    highlights: [
-      "Integrated OAuth 2.0 and OpenID Connect for secure SSO",
-      "Role-Based Access Control (RBAC) to manage permissions",
-      "Two-Factor Authentication (2FA) for account protection",
-      "Enforced strong password policy standards",
-      "Implemented centralized audit logging system",
+    "title": "Project Management System",
+    "description": "Developed a scalable project management system with secure authentication and advanced access control mechanisms.",
+    "highlights": [
+      "Implemented JWT and role-based access control (RBAC)",
+      "Designed database using PostgreSQL with polymorphic designs",
+      "Implemented centralized audit logging system"
     ],
-    technologies: [
-      "ASP.NET Core", // Backend Technology
+    "technologies": [
+      "ASP.NET Core",
       "IdentityServer",
       "Entity Framework Core",
+      "PostgreSQL",
+      "OpenID Connect"
+    ]
+  },
+  {
+    "title": "Your Services (Graduation Project – A+ Grade, 2024)",
+    "description": "A comprehensive service marketplace platform connecting users with verified providers across multiple sectors including healthcare, food services, and home maintenance.",
+    "highlights": [
+    "Developed secure authentication using ASP.NET Identity with JWT token authorization",
+    "Implemented repository pattern with Entity Framework Core for optimized data access",
+    "Built admin dashboard for service provider management and analytics",
+    ],
+    "technologies": [
+      ".NET Core",
       "SQL Server",
-      "Redis",
-      "OAuth2",
-      "OpenID Connect",
-    ],
+      "Entity Framework Core",
+    ]
   },
   {
-    title: "Your Services (Graduation Project – A+ Grade, 2024)",
-    description:
-      "Full-featured e-commerce backend for a mall ecosystem enabling product listings, store discovery, and customer engagement via cross-platform frontend (React/Flutter).",
-    highlights: [
-      "Real-time updates using SignalR",
-      "Comprehensive unit & integration tests using xUnit",
-      "Interactive API documentation via Swagger/OpenAPI",
-      "Redis caching layer for performance",
-      "Background tasks with Hangfire for notifications & reports",
-    ],
-    technologies: [
-      ".NET Core", // Backend Technology
-      "SignalR",
-      "xUnit",
-      "Redis",
-      "Hangfire",
-      "Swagger",
-      "EF Core",
-    ],
-  },
-  {
-    title: "E-commerce (MVC)",
-    description:
-      "A modular web application for managing gym operations, member subscriptions, and class schedules with real-time updates and a responsive UI.",
-    highlights: [
-      "Real-time class status and attendance via SignalR",
+    "title": "SiSi Travel - Tourism Management System",
+    "description": "Developed a tourism management system with multi-language support and responsive UI.",
+    "highlights": [
+      "Implemented multi-language support (English/Arabic)",
+      "Used Repository Pattern for data access abstraction",
+      "Created responsive UI for seamless tour bookings",
       "Schema generation using Entity Framework Code First",
-      "Interactive API docs with Swagger",
-      "High-speed data access using Redis caching",
-      "Automated task scheduling with Hangfire",
+      "Automated task scheduling with Hangfire"
     ],
-    technologies: [
-      ".NET Core MVC", // Backend Technology
-      "Entity Framework",
-      "SignalR",
-      "Redis",
-      "Hangfire",
-      "Swagger",
-    ],
+    "technologies": [
+      "ASP.NET Core MVC",
+      "SQL Server",
+      "Entity Framework Core",
+      "JavaScript",
+      "Bootstrap"
+    ]
   },
-];
+  {
+    "title": "E-commerce (MVC)",
+    "description": "Developed a handmade e-commerce website with shopping cart and role-based access control.",
+    "highlights": [
+      "Implemented Identity for authentication and authorization",
+      "Role-based access for users and admins",
+      "Shopping cart functionality for purchases",
+      "Category filtering system",
+      "Interactive API docs with Swagger"
+    ],
+    "technologies": [
+      "ASP.NET Core MVC",
+      "Entity Framework",
+      "SQL Server",
+      "JavaScript",
+      "Bootstrap",
+      "Swagger"
+    ]
+  }
+]
 
 
 const PROJECTS_PER_PAGE = 3;
