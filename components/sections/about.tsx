@@ -17,7 +17,7 @@ export default function About() {
           </div>
           <div className="space-y-4">
             <p className="text-zinc-600 dark:text-zinc-300">
-              Hi! I'm a dedicated .NET Backend Developer with over 2 years of experience building scalable, secure, and high-performance applications using ASP.NET Core, C#, and SQL Server.
+              Hi! I'm a dedicated .NET Backend Developer with one year of experience building scalable, secure, and high-performance applications using ASP.NET Core, C#, and SQL Server.
             </p>
             <p className="text-zinc-600 dark:text-zinc-300">
               I’m passionate about clean architecture, RESTful APIs, and writing maintainable backend code that powers robust web applications. I enjoy turning business requirements into efficient, production-ready systems.
