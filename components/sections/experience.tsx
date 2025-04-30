@@ -18,7 +18,7 @@ const experiences = [
     company:
       "Mentored students in C++ programming and competitive problem-solving through interactive workshops and hands-on exercises.",
     position: "C++ Mentor and Problem-Solving Trainer",
-    period: "2024 ",
+    period: "2023 - 2024",
     description:
       "Mentored students in C++ programming and competitive problem-solving, focusing on problem-solving techniques and algorithm optimization.",
   },
